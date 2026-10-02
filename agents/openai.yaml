@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rednote to Obsidian"
+  short_description: "Turn Rednote notes into Obsidian study docs"
+  default_prompt: "Use $rednote-to-obsidian to learn and archive this Rednote note into my Obsidian vault."

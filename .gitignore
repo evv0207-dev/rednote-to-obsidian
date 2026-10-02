@@ -1,0 +1,28 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.cookie
+*.cookies
+*cookie*.json
+credentials.json
+service-account.json
+secrets/
+sessions/
+.xiaohongshu-cli/
+
+# User-specific configuration and generated output
+config.json
+outputs/
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+*.map
+
+# Local open-source preparation reports (not part of the release)
+FORK_REPORT.md
+SANITIZATION_REPORT.md
